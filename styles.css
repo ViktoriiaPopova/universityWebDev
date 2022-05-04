@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+h1,h2,h3,p,table,label,input{
+	color: white;
+	font-family:Courier New, sans-serif;
+}
+/*header elements*/
+header{
+	background-color:#1abc9c;
+}
+#headerText{
+	padding-top: 20px;
+}
+.headerLink{
+	color: white;
+}
+span{
+	margin: 0 35px 0 35px;
+	color: white;
+}
+
+/*common rules for elements*/
+header,#sectionOne,#sectionTwo,#sectionThree{ padding: 70px; }
+
+/*section 1 elements*/
+#sectionOne{
+	background-color:#474e5d;
+}
+img{
+	margin-top: 10px;
+	width:300px;
+	height: 300px;
+}
+
+/*section 2*/
+#sectionTwo{
+	background-color:#2f2f2f;
+}
+button{
+	margin: 10px 0 10px 0;
+	background-color:#2f2f2f;
+	color:#7B68EE;
+	font-weight: bold;
+	width: 100px;
+	height: 25px;
+	border: 1px solid;
+  	border-radius: 6px;
+}
+button:hover{
+	color: darkorange;
+}
+
+/*section 3*/
+#sectionThree{
+	background-color:#242424;
+}
+a{
+	text-decoration: none;
+	color: #7B68EE;
+}
+a:hover{
+	color: #FF8C00;
+}
+input{
+	color: black;
+	width: 250px;
+	height: 30px;
+}
+#genderBullet{
+	width: 40px;
+	height: 15px;
+}
+#messageBoxArea{
+	height:200px;
+}
+#sendForm{
+	background-color:#7B68EE;
+	width: 150px;
+	height: 40px;
+	color: white;
+	margin: 10px 0 10px 0;
+}
+#sendForm:hover{
+	background-color: darkorange;
+}
+
+/*footer*/
+footer{
+	background-color: #2f2f2f;
+}
